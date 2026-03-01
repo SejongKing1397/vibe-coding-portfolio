@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oWhale - Product Designer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 헤더 / 내비게이션 -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon"></span>
+        <span class="logo-text">Whale</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-nav">
+      <ul class="mobile-nav-list">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-label">PRODUCT DESIGNER</p>
+          <h1 class="hero-title">SeoungHwan, Lee</h1>
+          <p class="hero-desc">
+            I am a freelance product designer. I work with brands to help them achieve their goals through effective product design and solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+          </div>
+          <div class="hero-decor hero-decor-dots">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image-bg"></div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop" alt="Markus Räikkönen">
+          </div>
+          <div class="hero-decor hero-decor-vertical">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="hero-decor hero-decor-bottom">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 서비스 섹션 + About Me -->
+    <section class="content-section">
+      <div class="container content-inner">
+        <!-- 서비스 카드 2x2 -->
+        <div class="services" id="services">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="22" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M24 32v6M20 38h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 14L8 8M34 14l6-6M14 30l-6 6M34 30l6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="service-title">User Research</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 20h32M16 28h4M24 28h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="service-title">Visual Design</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                <circle cx="30" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                <path d="M24 12v6M24 30v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="service-title">User Testing</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="8" width="28" height="32" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 20h16M16 26h12M16 32h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="service-title">Prototyping</p>
+          </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="about" id="about">
+          <p class="about-label">ABOUT ME</p>
+          <h2 class="about-title">Better design, better experiences</h2>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <div class="about-buttons">
+            <a href="#contact" class="btn btn-primary">Contact me</a>
+            <a href="#" class="btn btn-outline">Read more</a>
+          </div>
+          <div class="about-decor"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <p class="footer-text">© oWhale Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
